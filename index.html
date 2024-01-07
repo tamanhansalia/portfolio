@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h2 id="logo">TAMAN</h2>
+        <ul>
+            <li><a href="#" onclick="window.reload()">Home</a></li>
+            <li><a href="#" onclick="scrolltoskills()">Skills</a></li>
+            <li><a href="#" onclick="scrolltoprojects()">Projects</a></li>
+            <li><a href="#" onclick="scrolltocontactus()">Contact</a></li>
+        </ul>
+        <button class="resume-btn">Resume</button>
+    </div>
+
+    <div class="main">
+        <h4>Hi, I am <span>TAMAN</span>👋</h4>
+        <p class="title">Creative web developer</p>
+        <p class="subtitle">Building the future, one line of code at a time.
+        </p>
+        <img src="image.png">
+    </div>
+
+    <section id="features">
+        <div class="header">
+            <h1>Skills</h1>
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <h1>Competitive Coding</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nisi nemo aut veritatis, eius
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <h1>Creative Projects</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A explicabo impedit hic, sapiente
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <h1>Design & Development</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatem numquam earum omnis
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="header">
+        <h1 id="header">MY PROJECTS</h1>
+    </div>
+
+    <div class="cards-list">
+        <div class="pcard 1">
+            <div class="card_image">
+                <img onclick="window.scrollTo(0,0)"
+                    src="https://images.pexels.com/photos/14936128/pexels-photo-14936128.jpeg?cs=srgb&dl=pexels-ann-h-14936128.jpg&fm=jpg"
+                    \>
+            </div>
+            <div class="card_title">
+                <p>Portfolio</p>
+            </div>
+        </div>
+
+        <div class="pcard 2">
+            <div class="card_image">
+                <img onclick="window.location.href='https://tamanhansalia.github.io/weather/';"
+                    src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638886301/EducationHub/photos/lightning-bolts.jpg">
+            </div>
+            <div class="card_title">
+                <p>Weather</p>
+            </div>
+        </div>
+
+        <div class="pcard 3">
+            <div class="card_image">
+                <img
+                    src="https://play-lh.googleusercontent.com/wLGeewLp4VgAOHEV-1NYxCB7WJIrjVWGJsNbiYZbX7-7WF8oJe0KyueueOZkxO9MWQ=w526-h296-rw">
+            </div>
+            <div class="card_title">
+                <p>Netflix Login page</p>
+            </div>
+        </div>
+        <button id="stickyButton"> ⬆️</button>
+    </div>
+    <div class="contact-container">
+        <div class="header">
+            <h1 id="contactus">Contact Us</h1>
+        </div>
+        <div class="social-icons">
+            <ul class='social'>
+                <li class='facebook'>
+                    <a>
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                    </a>
+                </li>
+                <li class='github'>
+                    <a>
+                        <i class="fa-brands fa-github fa-2xl"></i>
+                    </a>
+                </li>
+                <li class='instagram'>
+                    <a>
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                    </a>
+                </li>
+                <li class='discord'>
+                    <a>
+                        <i class="fa-brands fa-discord fa-2xl"></i>
+                    </a>
+                </li>
+                <li class='linkedin'>
+                    <a>
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
